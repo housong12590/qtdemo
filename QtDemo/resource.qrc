@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>resource/icon_keyboard.png</file>
+        <file>resource/icon_location.png</file>
+        <file>resource/icon_menu.png</file>
+        <file>resource/icon_meoji.png</file>
+        <file>resource/icon_picture.png</file>
+        <file>resource/icon_shooting.png</file>
+        <file>resource/icon_voice.png</file>
+        <file>resource/语音 (2).png</file>
+    </qresource>
+</RCC>

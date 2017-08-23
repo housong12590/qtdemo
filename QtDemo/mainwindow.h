@@ -11,17 +11,12 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
-private :
-    int m_time_id;
-
 private slots:
 
-    void on_btn_open_file_clicked();
+    void on_btn_search_clicked();
 
-    void on_btn_save_file_clicked();
-
-public :
-    virtual void timerEvent(QTimerEvent *enevt);
+private:
+    void load_data_from_sql();
 
 public:
     explicit MainWindow(QWidget *parent = 0);
